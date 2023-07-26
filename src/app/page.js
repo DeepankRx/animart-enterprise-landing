@@ -1,12 +1,10 @@
 'use client';
-import React, { useEffect } from 'react';
+import React from 'react';
 import HomePage from '@/Pages/HomePage';
 import Aos from 'aos';
 import Head from 'next/head';
 const page = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
+
   return (
     <>
       <Head>
